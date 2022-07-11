@@ -1,0 +1,10 @@
+var n = document.getElementById("Name");
+n.innerHTML = "ARYAN GUPTA";
+var roll_number = document.getElementById("Roll_Number");
+roll_number.innerHTML = "201500150";
+var date = document.getElementById("Date");
+const d = new Date();
+let day = d.getDate();
+let month = d.getMonth();
+let year = d.getFullYear();
+date.innerHTML = `${day}-${month}-${year}`;
